@@ -1,12 +1,12 @@
 module.exports.config = {
-  name: "impress",
+  name: "crush",
   version: "1.0.0",
   role: 0,
   description: "Use it to impress the girls (now with Tagalog and English lines)",
   usePrefix: false,
   commandCategory: "fun",
-  usages: "impress @mention",
-  cooldowns: 2,
+  usages: "crush @mention",
+  cooldowns: 1,
 };
 
 module.exports.run = async function ({ api, event, args }) {
