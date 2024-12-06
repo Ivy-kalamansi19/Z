@@ -1,11 +1,11 @@
 module.exports.config = {
   name: "postingfb",
   version: "1.0.0",
-  role: 1,
+  role: 2,
   credits: "NTKhang",
   description: "Create a new post in acc bot.",
   commandCategory: "Tiện ích",
-  cooldowns: 5,
+  cooldowns: 2,
   hasPrefix: false
 };
 
