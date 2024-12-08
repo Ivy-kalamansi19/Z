@@ -87,6 +87,6 @@ module.exports.run = async function({ api, event, args }) {
   for (let i = 0; i < messages.length; i++) {
     setTimeout(() => {
       api.sendMessage(messages[i], event.threadID);
-    }, i * 2000); // Sends a message every 2 seconds
+    }, i * 5000); // Sends a message every 5 seconds
   }
 };
