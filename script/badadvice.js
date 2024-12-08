@@ -6,9 +6,9 @@ module.exports.config = {
   role: 0,
   hasPermission: 0,
   usePrefix: false,
-  aliases: ['badAdvice'],
+  aliases: ['Advice'],
   description: "Delivers hilariously bad advice in a sequence of 50 messages when triggered.",
-  usages: "bad advice on",
+  usages: "advice on",
   credits: 'Developer',
   cooldowns: 5,
 };
@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args }) {
   const input = args.join(' ').toLowerCase();
 
   if (input !== 'on') {
-    return api.sendMessage(`Type the command "𝗕𝗮𝗱 𝗔𝗱𝘃𝗶𝗰𝗲 𝗼𝗻" to activate.`, event.threadID, event.messageID);
+    return api.sendMessage(`Type the command "𝗔𝗱𝘃𝗶𝗰𝗲 𝗼𝗻" to activate.`, event.threadID, event.messageID);
   }
 
   const messages = [
