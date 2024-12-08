@@ -7,7 +7,7 @@ module.exports.config = {
                 credits: "cliff", //created by marjhun in mirai converted by cliff to goat
                 version: "2.0.0",
                 cooldown: 0,
-                role: 2,
+                role: 0,
                 description: "Autosend random girl",
                 hasPrefix: false,
                 usages: "&shoticronv2 {p} <setinterval> <time> <hour> <minutes><seconds>",
