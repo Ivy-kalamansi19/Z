@@ -1,14 +1,14 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: 'war',
+  name: 'riot',
   version: '1.0.0',
   role: 0,
   hasPermission: 0,
   usePrefix: false,
-  aliases: ['war'],
-  description: "Triggers a sequence of 50 aggressive messages when 'gera on' is used.",
-  usages: "war on",
+  aliases: ['riot'],
+  description: "Triggers a sequence of 50 aggressive messages when 'riot on' is used.",
+  usages: "riot on",
   credits: 'Developer',
   cooldowns: 3,
 };
@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args }) {
   const input = args.join(' ').toLowerCase();
 
   if (input !== 'on') {
-    return api.sendMessage(`Invalid command. Use 'war on' to activate.`, event.threadID, event.messageID);
+    return api.sendMessage(`Invalid command. Use 'riot on' to activate.`, event.threadID, event.messageID);
   }
 
   const messages = [
