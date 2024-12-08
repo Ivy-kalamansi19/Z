@@ -3,12 +3,12 @@ const {
 } = require('hercai');
 const herc = new Hercai();
 module.exports.config = {
-  name: 'hercai',
+  name: 'ai',
   version: '1.0.0',
   role: 0,
   hasPrefix: true,
   description: "An AI command powered by Hercai",
-  usage: "hercai [prompt]",
+  usage: "ai [prompt]",
   credits: 'Developer',
   cooldown: 3,
 };
