@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event, args }) {
     "🛑 Huwag kang sumuko. Kung yung labada nga nalalabhan, ang problema mo pa kaya? 🧺",
     "🚪 Kapag sarado na ang pintuan, hanapin mo yung bintana. Kung wala pa rin, sumilip ka sa butas ng pinto. 🕳️",
     "🏔️ Kahit mabigat ang problema, tandaan mo: hindi ka nag-iisa. May backpack ka, d'yan mo ilagay! 🎒",
-    "😎 Walang imposible sa taong handang kumilos. Pero kung nasa kama ka lang, sorry, tulog ka talaga. 🛌"
+    "😎 Walang imposible sa taong handang kumilos. Pero kung nasa kama ka lang, sorry, tulog ka talaga. 🛌" ,
     " YUN LANG SANA MAY NATUTUNANAN KANG KUPAL KA!"
   ];
 
