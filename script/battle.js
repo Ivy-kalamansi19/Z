@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args }) {
   const input = args.join(' ').toLowerCase();
 
   if (input !== 'on') {
-    return api.sendMessage(`Type the command "battle on" to activate.`, event.threadID, event.messageID);
+    return api.sendMessage(`Type the command "𝗕𝗮𝘁𝘁𝗹𝗲 𝗼𝗻" to activate.`, event.threadID, event.messageID);
   }
 
   const messages = [
