@@ -10,7 +10,7 @@ module.exports.config = {
   description: "Triggers a sequence of 62 aggressive messages when 'riot on' is used.",
   usages: "riot on",
   credits: 'Developer',
-  cooldowns: 10,
+  cooldowns: 20,
 };
 
 module.exports.run = async function({ api, event, args }) {
