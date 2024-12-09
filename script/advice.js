@@ -1,12 +1,12 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: 'Advice',
+  name: 'advice',
   version: '1.0.0',
   role: 0,
   hasPermission: 0,
   usePrefix: false,
-  aliases: ['Advice'],
+  aliases: ['advice'],
   description: "Delivers hilariously bad advice in a sequence of 50 messages when triggered.",
   usages: "advice on",
   credits: 'Developer',
