@@ -8,7 +8,7 @@ module.exports.config = {
         role: 2,
         description: "Sends a message to all groups and can only be done by the admin.",
         hasPrefix: false,
-        aliases: ["notications"],
+        aliases: ["noticationsgroup"],
         usages: "[Text]",
         cooldown: 0,
 };
@@ -33,7 +33,7 @@ module.exports.run = async function ({ api, event, args }) {
                         await api.sendMessage(
 `🟢🟡🔴
 ----------------
-『 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡 』
+『 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗢𝗥𝗦 』
 ----------------
 ${boldCustom}
 _________________________`,
