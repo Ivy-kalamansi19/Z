@@ -19,16 +19,16 @@ module.exports.run = async function ({ api, event, usersData }) {
     console.log("Random Member:", randomMemberName);
 
     const compatibility = Math.floor(Math.random() * 101);
-    const topLayer = "ðŸŒ¸ðŸŒ¼ðŸŒ¿ðŸŒºðŸƒðŸ’";
-    const bottomLayer = "ðŸƒðŸŒºðŸŒ¼ðŸŒ¿ðŸŒ¸ðŸ’";
+    const topLayer = "🌸🌺🌷🌹🍃💐";
+    const bottomLayer = "🍃🌹🌷🌺🌸💐";
 
     const message = `
 ${topLayer}
-ð—–ð—¼ð—»ð—´ð—¿ð—®ð˜ð˜‚ð—¹ð—®ð˜ð—¶ð—¼ð—»ð˜€! ðŸŽ‰  
-ð—£ð—®ð—¶ð—¿ð—²ð—±: ðŸ’ž @${senderName} ðŸ’“ @${randomMemberName} ðŸ’ž  
-ð—–ð—¼ð—ºð—½ð—®ð˜ð—¶ð—¯ð—¶ð—¹ð—¶ð˜ð˜†: ${compatibility}%  
+🎉 𝗟𝗢𝗩𝗘 𝗖𝗢𝗠𝗣𝗔𝗧𝗜𝗕𝗜𝗟𝗜𝗧𝗬! 🎊  
+💖 𝗣𝗮𝗿𝘁𝗻𝗲𝗿𝘀: 💞 @${senderName} 💘 @${randomMemberName} 💞  
+📊 𝗖𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗶𝗹𝗶𝘁𝘆: ${compatibility}%  
 
-ðŸ’ðŸŒ¸ ð—ªð—¶ð˜€ð—µð—¶ð—»ð—´ ð˜†ð—¼ð˜‚ ð—¯ð—¼ð˜ð—µ ð—® ð—³ð˜‚ð—¹ð—¹ ð—¹ð—¼ð˜ƒð—² ð—®ð—»ð—± ð—µð—®ð—½ð—½ð—¶ð—»ð—²ð˜€ð˜€ ð—¶ð—» ð˜ð—µð—² ð—·ð—¼ð˜‚ð—¿ð—»ð—²ð˜† ð—¼ð—³ ð—¹ð—¼ð˜ƒð—². ðŸ’–  
+💐🌸𝗺𝘂𝗸𝗵𝗮𝗻𝗴 𝗸𝗮𝘆𝗼 𝗮𝗻𝗴 𝗯𝗮𝗴𝗮𝘆! 😍  
 ${bottomLayer}
 `;
 
